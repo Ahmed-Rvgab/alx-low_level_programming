@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- *  * main - prints all combination of a single digit
- *   *
- *    * Return: Always 0 (success)
- *     */
+** main - prints all combination of a single digit
+**
+** Return: Always 0 (success)
+**/
 
 int main(void)
 {

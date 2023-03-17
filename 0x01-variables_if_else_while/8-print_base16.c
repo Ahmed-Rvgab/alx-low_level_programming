@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- *  * main - print from 0 to 16 in hexadecimal
- *   *
- *    * Return: Always 0 (success)
- *     */
+** main - print from 0 to 16 in hexadecimal
+**
+** Return: Always 0 (success)
+**/
 
 int main(void)
 {
