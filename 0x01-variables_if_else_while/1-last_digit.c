@@ -1,29 +1,34 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
-#include<stdio.h>
-/* betty style doc for function main goes there */
+#include <stdio.h>
 /**
- *  * main - main function
+ *  * main - Check the last digit
  *   *
- *    * Return: always 0
+ *    * Return: always 0 (Success)
  *     */
+
 int main(void)
 {
-		int n;
-			int m;
+	int n;
+	int last_digit;
 
-				srand(time(0));
-					n = rand() - RAND_MAX / 2;
-						/* your code goes there */
-						m = n % 10;
-							if (m > 5)
-										printf("Last digit of %d is %d and is greater than 5", n, m);
-								else if (m == 0)
-											printf("Last digit of %d is %d and is 0", n, m);
-									else if (m < 6 && m != 0)
-												printf("Last digit of %d is %d and is less than 6 and not 0", n, m);
-										printf("/n");
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	last_digit = n % 10;
+	printf("Last digit of %d is %d ", n, last_digit);
 
-											return (0);
+	if (last_digit > 5)
+	{
+		printf("and is greater than 5\n");
+	}
+	else if (last_digit < 6 && last_digit != 0)
+	{
+		printf("and is less than 6 and not 0\n");
+	}
+	else
+	{
+		printf("and is 0\n");
+	}
+
+	return (0);
 }
