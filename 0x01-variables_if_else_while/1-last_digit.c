@@ -2,10 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 /**
- *  * main - Check the last digit
- *   *
- *    * Return: always 0 (Success)
- *     */
+** main - Check the last digit
+**
+** Return: always 0 (Success)
+**/
 
 int main(void)
 {
